@@ -1,6 +1,9 @@
 ## Weather App
 This application is a simple weather application built using the following technologies:
 
+# Live Demo:
+https://node-gi-1-six.vercel.app
+
 # Technologies:
 Node.js: JavaScript runtime environment used for server-side development
 Express.js: Web application framework for Node.js, used to create the backend API
