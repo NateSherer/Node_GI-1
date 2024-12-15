@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/weather.png">
+    <title>Weather</title>
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+
+<div class = "main-content">
+    {{>navbar}}
+    {{>header}}
+    <div id="form-container">
+    <p>Use this site to get your weather!</p>
+
+    <form> 
+        <input placeholder="Location">
+        <button>Search</button>
+        <select id="units">
+            <option value="f">Farenheit</option>
+            <option value="m">Celcius</option>
+            <option value="s">Kelvin</option>
+        </select>
+    </form>
+
+    <p id ="message-1"></p>
+    <p id ="message-2"></p>
+</div>
+</div>
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "week12-nodeapps",
+  "version": "1.0.0",
+  "main": "yargs.js",
+  "scripts": {
+  "start": "node web-server/src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
